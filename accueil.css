@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.img_header{
+    max-height:400px;
+    width:100%;
+    object-fit: cover;
+    z-index:0;
+}
+
+header div:nth-child(n+2){
+    display:flex;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    justify-content:center;
+    align-items:center;
+    background:white;
+}
+
+.toilette_arr{
+    position:absolute;
+    box-shadow: 0 5px 5px #6BE7FD;
+
+}
+
+.type_arr{
+    position:absolute;
+    box-shadow:0 5px 5px #FFA6E1;
+
+}
+
+.pmr{
+    position:absolute;
+    box-shadow: 0 5px 5px #AE28B0;
+
+}
