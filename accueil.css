@@ -2,11 +2,20 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main h2{
+    font-size:2rem;
+}
+
 .img_header{
     max-height:400px;
     width:100%;
     object-fit: cover;
     z-index:0;
+    box-shadow: 0 3px 5px #AAAAAA;
 }
 
 header div:nth-child(n+2){
@@ -15,24 +24,29 @@ header div:nth-child(n+2){
     height:200px;
     border-radius: 50%;
     justify-content:center;
-    align-items:center;
+    align-items:end;
+    padding-bottom: 50px;
     background:white;
+    margin-top:300px;
 }
 
 .toilette_arr{
     position:absolute;
     box-shadow: 0 5px 5px #6BE7FD;
-
+    left:30%;
 }
 
 .type_arr{
     position:absolute;
     box-shadow:0 5px 5px #FFA6E1;
-
 }
 
 .pmr{
     position:absolute;
     box-shadow: 0 5px 5px #AE28B0;
+    left:60%
+}
 
+.content{
+    flex-direction: column;
 }
