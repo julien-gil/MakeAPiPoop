@@ -7,20 +7,16 @@ body{
     background:linear-gradient(#AE28B0 0%, #FFC1EA 26%, 6BE7FD 81%, FFFFFF 100%)!important;
 }
 
-header{
-    padding:20px 0;
-}
-
 main h2{
     font-size:2rem;
 }
+
 
 .img_header{
     max-height:400px;
     width:100%;
     object-fit: cover;
     z-index:0;
-    box-shadow: 0 3px 5px #AAAAAA;
 }
 
 header div:nth-child(n+2){
@@ -55,4 +51,23 @@ header div:nth-child(n+2){
 .content{
     margin-top: 200px;
     flex-direction: column;
+}
+
+main div h2{
+    margin-bottom: 2%;
+    font-weight:400;
+}
+
+main div p{
+    margin-bottom:3%;
+    font-weight: 900;
+}
+
+#client{
+    position:absolute;
+    width:100%;
+}
+
+#contenu_client{
+    font-weight: 500;
 }
