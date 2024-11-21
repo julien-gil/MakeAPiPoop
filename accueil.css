@@ -68,6 +68,10 @@ main div p{
     width:100%;
 }
 
+#client>img{
+    margin-left:5%;
+}
+
 #contenu_client{
     font-weight: 500;
 }
